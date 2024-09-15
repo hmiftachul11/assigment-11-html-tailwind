@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Portfolio Website</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <main class="bg-[#0F1624]">
+        <!-- header section -->
+        <header
+            class="fixed w-full top-0 right-0 z-50 flex items-center justify-between bg-transparent py-5 px-[10%] border-b border-transparent transition-all duration-500 bg-gray-800">
+            <a href="#" class="logo text-white text-3xl font-bold tracking-wide underline">
+                <span class="text-orange-600">Tach</span>ul
+            </a>
+
+            <ul class="navlist flex space-x-8">
+                <li><a href="#home" class="active text-orange-600 font-medium">Home</a></li>
+                <li><a href="#about" class="text-gray-400 hover:text-orange-600 transition-all scroll-smooth">About
+                        Me</a></li>
+                <li><a href="#services"
+                        class="text-gray-400 hover:text-orange-600 transition-all scroll-smooth">Services</a></li>
+                <li><a href="#portfolio"
+                        class="text-gray-400 hover:text-orange-600 transition-all scroll-smooth">Portfolio</a></li>
+                <li><a href="#contact" class="text-gray-400 hover:text-orange-600 transition-all scroll-smooth">Contact
+                        Me</a></li>
+            </ul>
+        </header>
+
+        <!-- home section -->
+        <section
+            class="home relative h-screen flex flex-col md:flex-row items-center justify-start px-6 md:px-[10%] bg-cover bg-center bg-[#0F1624]"
+            id="home">
+            <!-- Left Section -->
+            <div class="home-text w-full md:w-3/4 relative z-10 text-center md:text-left">
+                <p class="text-gray-400 text-sm md:text-lg mb-2">
+                    For my Latest <span class="text-orange-600">( Next.js )</span> Portfolio, you can click
+                    <a href="https://miftachul-huda.vercel.app/" target="_blank"
+                        class="text-orange-500 hover:text-orange-600 underline">here</a>.
+                </p>
+
+                <div class="slide mb-5">
+                    <span
+                        class="one inline-block mr-4 h-8 px-4 text-lg md:text-xl font-medium bg-orange-600 text-white rounded-md">Hello</span>
+                    <span class="two inline-block text-lg md:text-xl font-medium text-gray-400">I'm</span>
+                </div>
+
+                <h1 class="text-4xl md:text-7xl font-bold text-white leading-tight mb-2">Miftachul Huda</h1>
+                <h3 class="text-3xl md:text-5xl font-bold text-white mb-8">
+                    Front-End <span class="text-orange-600">Web Developer</span>
+                </h3>
+
+                <p class="text-gray-400 text-sm md:text-lg leading-relaxed mb-10">
+                    Someone who has great ambition to change the world for the better through the lines of code that he
+                    wrote.
+                    With more than 2 years of experience in web applications. I hope to make unique and different
+                    breakthroughs
+                    in solving problems through technology. Through web applications, I hope to become a world-class
+                    developer
+                    that is useful for life.
+                </p>
+
+                <div class="button inline-flex items-center justify-center">
+                    <a href="#"
+                        class="btn inline-block py-2 md:py-3 px-5 md:px-7 bg-gradient-to-r from-orange-500 to-red-600 text-white rounded-md text-sm md:text-lg font-semibold tracking-wider transition-all duration-500 transform hover:scale-110 hover:bg-gradient-to-r hover:from-yellow-500 hover:to-pink-500 focus:scale-105">
+                        Learn more about me
+                    </a>
+                </div>
+            </div>
+
+            <!-- Right Section -->
+            <div class="w-full md:w-1/2 mt-10 md:mt-0 h-full flex justify-center items-center z-0">
+                <svg class="BgAnimation__svg" viewBox="0 0 602 602" fill="none" xmlns="http://www.w3.org/2000/svg"
+                    width="100%" height="100%">
+                    <g opacity="0.15">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M201.337 87.437C193.474 79.5738 180.725 79.5738 172.862 87.437L87.437 172.862C79.5739 180.725 79.5739 193.474 87.437 201.337L400.663 514.563C408.526 522.426 421.275 522.426 429.138 514.563L514.563 429.138C522.426 421.275 522.426 408.526 514.563 400.663L201.337 87.437ZM30.4869 115.912C-8.82897 155.228 -8.82897 218.972 30.4869 258.287L343.713 571.513C383.028 610.829 446.772 610.829 486.088 571.513L571.513 486.088C610.829 446.772 610.829 383.028 571.513 343.713L258.287 30.4869C218.972 -8.82896 155.228 -8.82896 115.912 30.4869L30.4869 115.912Z"
+                            stroke="url(#paint0_radial)" id="path_0" />
+                        <path
+                            d="M514.563 201.337C522.426 193.474 522.426 180.725 514.563 172.862L429.138 87.437C421.275 79.5738 408.526 79.5739 400.663 87.437L358.098 130.002L301.148 73.0516L343.713 30.4869C383.028 -8.82896 446.772 -8.82896 486.088 30.4869L571.513 115.912C610.829 155.228 610.829 218.972 571.513 258.287L357.802 471.999L300.852 415.049L514.563 201.337Z"
+                            stroke="url(#paint1_radial)" id="path_1" />
+                        <path
+                            d="M243.901 471.999L201.337 514.563C193.474 522.426 180.725 522.426 172.862 514.563L87.437 429.138C79.5739 421.275 79.5739 408.526 87.437 400.663L301.148 186.952L244.198 130.002L30.4869 343.713C-8.82897 383.028 -8.82897 446.772 30.4869 486.088L115.912 571.513C155.228 610.829 218.972 610.829 258.287 571.513L300.852 528.949L243.901 471.999Z"
+                            stroke="url(#paint2_radial)" id="path_2" />
+                    </g>
+                    <ellipse cx="295.027" cy="193.118" transform="translate(-295.027 -193.118)" rx="1.07306"
+                        ry="1.07433" fill="#945DD6">
+                        <animateMotion dur="10s" repeatCount="indefinite" rotate="auto">
+                            <mpath href="#path_2" />
+                        </animateMotion>
+                    </ellipse>
+                    <path d="M294.685 193.474L268.932 219.258"
+                        transform="translate(-294.685 -193.474) rotate(45 294.685 193.474)"
+                        stroke="url(#paint3_linear)">
+                        <animateMotion dur="10s" repeatCount="indefinite" rotate="auto">
+                            <mpath href="#path_2" />
+                        </animateMotion>
+                    </path>
+                    <ellipse cx="295.027" cy="193.118" transform="translate(-295.027 -193.118)" rx="1.07306"
+                        ry="1.07433" fill="#46737">
+                        <animateMotion dur="5s" begin="1" repeatCount="indefinite" rotate="auto">
+                            <mpath href="#path_2" />
+                        </animateMotion>
+                    </ellipse>
+                    <path d="M294.685 193.474L268.932 219.258"
+                        transform="translate(-294.685 -193.474) rotate(45 294.685 193.474)"
+                        stroke="url(#paint7_linear)">
+                        <animateMotion dur="5s" begin="1" repeatCount="indefinite" rotate="auto">
+                            <mpath href="#path_2" />
+                        </animateMotion>
+                    </path>
+                    <ellipse cx="476.525" cy="363.313" rx="1.07433" ry="1.07306"
+                        transform="translate(-476.525 -363.313) rotate(90 476.525 363.313)" fill="#945DD6">
+                        <animateMotion dur="10s" repeatCount="indefinite" rotate="auto">
+                            <mpath href="#path_0" />
+                        </animateMotion>
+                    </ellipse>
+                    <path d="M476.171 362.952L450.417 337.168"
+                        transform="translate(-476.525 -363.313) rotate(-45 476.171 362.952)"
+                        stroke="url(#paint4_linear)">
+                        <animateMotion dur="10s" repeatCount="indefinite" rotate="auto">
+                            <mpath href="#path_0" />
+                        </animateMotion>
+                    </path>
+                    <ellipse cx="382.164" cy="155.029" rx="1.07433" ry="1.07306"
+                        transform="translate(-382.164 -155.029) rotate(90 382.164 155.029)" fill="#F46737">
+                        <animateMotion dur="10s" begin="1" repeatCount="indefinite" rotate="auto">
+                            <mpath href="#path_0" />
+                        </animateMotion>
+                    </ellipse>
+                    <path d="M381.81 154.669L356.057 128.885"
+                        transform="translate(-381.81 -154.669) rotate(-45 381.81 154.669)" stroke="url(#paint5_linear)">
+                        <animateMotion dur="10s" begin="1" repeatCount="indefinite" rotate="auto">
+                            <mpath href="#path_0" />
+                        </animateMotion>
+                    </path>
+                    <ellipse cx="333.324" cy="382.691" rx="1.07306" ry="1.07433"
+                        transform="translate(-333.324 -382.691) rotate(-180 333.324 382.691)" fill="#F46737">
+                        <animateMotion dur="5s" begin="0" repeatCount="indefinite" rotate="auto">
+                            <mpath href="#path_1" />
+                        </animateMotion>
+                    </ellipse>
+                    <path d="M333.667 382.335L359.42 356.551"
+                        transform="scale(-1 1) translate(-333.667 -382.335) rotate(45 333.667 382.335)"
+                        stroke="url(#paint6_linear)">
+                        <animateMotion dur="5s" begin="0" repeatCount="indefinite" rotate="auto">
+                            <mpath href="#path_1" />
+                        </animateMotion>
+                    </path>
+                    <ellipse cx="165.524" cy="93.9596" rx="1.07306" ry="1.07433"
+                        transform="translate(-165.524 -93.9596)" fill="#F46737">
+                        <animateMotion dur="10s" begin="3" repeatCount="indefinite" rotate="auto">
+                            <mpath href="#path_0" />
+                        </animateMotion>
+                    </ellipse>
+                    <path d="M165.182 94.3159L139.429 120.1"
+                        transform="translate(-165.182 -94.3159) rotate(45 165.182 94.3159)"
+                        stroke="url(#paint7_linear)">
+                        <animateMotion dur="10s" begin="3" repeatCount="indefinite" rotate="auto">
+                            <mpath href="#path_0" />
+                        </animateMotion>
+                    </path>
+                    <ellipse cx="476.525" cy="363.313" rx="1.07433" ry="1.07306"
+                        transform="translate(-476.525 -363.313) rotate(90 476.525 363.313)" fill="#13ADC7">
+                        <animateMotion dur="12s" begin="4" repeatCount="indefinite" rotate="auto">
+                            <mpath href="#path_0" />
+                        </animateMotion>
+                    </ellipse>
+                    <path d="M476.171 362.952L450.417 337.168"
+                        transform="translate(-476.525 -363.313) rotate(-45 476.171 362.952)"
+                        stroke="url(#paint11_linear)">
+                        <animateMotion dur="12s" begin="4" repeatCount="indefinite" rotate="auto">
+                            <mpath href="#path_0" />
+                        </animateMotion>
+                    </path>
+                    <defs>
+                        <radialGradient id="paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+                            gradientTransform="translate(301 301) rotate(90) scale(300)">
+                            <stop offset="0.333333" stop-color="#FBFBFB" />
+                            <stop offset="1" stop-color="white" stop-opacity="0" />
+                        </radialGradient>
+                        <radialGradient id="paint1_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+                            gradientTransform="translate(301 301) rotate(90) scale(300)">
+                            <stop offset="0.333333" stop-color="#FBFBFB" />
+                            <stop offset="1" stop-color="white" stop-opacity="0" />
+                        </radialGradient>
+                        <radialGradient id="paint2_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+                            gradientTransform="translate(301 301) rotate(90) scale(300)">
+                            <stop offset="0.333333" stop-color="#FBFBFB" />
+                            <stop offset="1" stop-color="white" stop-opacity="0" />
+                        </radialGradient>
+                        <linearGradient id="paint3_linear" x1="295.043" y1="193.116" x2="269.975" y2="218.154"
+                            gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#945DD6" />
+                            <stop offset="1" stop-color="#945DD6" stop-opacity="0" />
+                        </linearGradient>
+                        <linearGradient id="paint4_linear" x1="476.529" y1="363.31" x2="451.461" y2="338.272"
+                            gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#945DD6" />
+                            <stop offset="1" stop-color="#945DD6" stop-opacity="0" />
+                        </linearGradient>
+                        <linearGradient id="paint5_linear" x1="382.168" y1="155.027" x2="357.1" y2="129.989"
+                            gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#F46737" />
+                            <stop offset="1" stop-color="#F46737" stop-opacity="0" />
+                        </linearGradient>
+                        <linearGradient id="paint6_linear" x1="333.309" y1="382.693" x2="358.376" y2="357.655"
+                            gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#F46737" />
+                            <stop offset="1" stop-color="#F46737" stop-opacity="0" />
+                        </linearGradient>
+                        <linearGradient id="paint7_linear" x1="165.54" y1="93.9578" x2="140.472" y2="118.996"
+                            gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#F46737" />
+                            <stop offset="1" stop-color="#F46737" stop-opacity="0" />
+                        </linearGradient>
+                        <linearGradient id="paint8_linear" x1="414.367" y1="301.156" x2="439.435" y2="276.118"
+                            gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#13ADC7" />
+                            <stop offset="1" stop-color="#13ADC7" stop-opacity="0" />
+                        </linearGradient>
+                        <linearGradient id="paint9_linear" x1="515.943" y1="288.238" x2="541.339" y2="291.454"
+                            gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#13ADC7" />
+                            <stop offset="1" stop-color="#13ADC7" stop-opacity="0" />
+                        </linearGradient>
+                        <linearGradient id="paint10_linear" x1="117.001" y1="230.619" x2="117.36" y2="258.193"
+                            gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#945DD6" />
+                            <stop offset="1" stop-color="#945DD6" stop-opacity="0" />
+                        </linearGradient>
+                        <linearGradient id="paint11_linear" x1="476.529" y1="363.31" x2="451.461" y2="338.272"
+                            gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#13ADC7" />
+                            <stop offset="1" stop-color="#13ADC7" stop-opacity="0" />
+                        </linearGradient>
+                    </defs>
+                </svg>
+            </div>
+        </section>
+
+
+        <!-- About section -->
+        <section class="about grid grid-cols-1 md:grid-cols-2 items-center gap-6 py-10 px-[10%]" id="about">
+            <div class="about-img">
+                <img src="./img/about.jpeg" class="w-full max-w-md rounded-lg">
+            </div>
+            <div class="about-text">
+                <h2 class="text-4xl text-white font-bold">About <span class="text-orange-600">Me</span></h2>
+                <h4 class="text-2xl font-semibold text-white my-4">Front-End Web Development!</h4>
+                <p class="text-gray-600 text-lg leading-relaxed mb-10">
+                    Hello! I'm Tachul. I started learning web development in June 2021, in the midst of a pandemic.
+                </p>
+                <a href="#" class="bg-orange-500 text-white py-2 px-4 rounded-lg transition hover:bg-orange-600">More
+                    About</a>
+            </div>
+        </section>
+
+        <!-- Services section -->
+        <section class="services bg-gray-800 py-10 px-[10%]" id="services">
+            <div class="text-center ">
+                <p class="text-gray-400 mb-4">What I am Expert In</p>
+                <h2 class="text-4xl font-bold text-white">My <span class="text-orange-600">Services</span></h2>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-10">
+                <div class="bg-gray-700 p-8 rounded-lg transition hover:transform hover:-translate-y-2">
+                    <div class="text-4xl mb-5"><i class='bx bx-mobile-alt'></i></div>
+                    <h3 class="text-2xl font-semibold text-white mb-3">Web Design</h3>
+                    <p class="text-gray-400 mb-4">Competitive analysis, corporate strategy...</p>
+                    <a href="#"
+                        class="bg-gray-900 text-gray-400 py-2 px-4 rounded-lg hover:bg-white hover:text-black">Read
+                        More</a>
+                </div>
+                <div class="bg-gray-700 p-8 rounded-lg transition hover:transform hover:-translate-y-2">
+                    <div class="text-4xl mb-5"><i class='bx bx-code-alt'></i></div>
+                    <h3 class="text-2xl font-semibold text-white mb-3">Web Development</h3>
+                    <p class="text-gray-400 mb-4">Competitive analysis, corporate strategy...</p>
+                    <a href="#"
+                        class="bg-gray-900 text-gray-400 py-2 px-4 rounded-lg hover:bg-white hover:text-black">Read
+                        More</a>
+                </div>
+                <div class="bg-gray-700 p-8 rounded-lg transition hover:transform hover:-translate-y-2">
+                    <div class="text-4xl mb-5"><i class='bx bx-edit-alt'></i></div>
+                    <h3 class="text-2xl font-semibold text-white mb-3">Creative Design</h3>
+                    <p class="text-gray-400 mb-4">Competitive analysis, corporate strategy...</p>
+                    <a href="#"
+                        class="bg-gray-900 text-gray-400 py-2 px-4 rounded-lg hover:bg-white hover:text-black">Read
+                        More</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio section -->
+        <section class="portfolio py-10 px-[10%]" id="portfolio">
+            <div class="text-center">
+                <p class="text-gray-400 mb-4">Portfolio</p>
+                <h2 class="text-4xl font-bold text-white">Latest <span class="text-orange-600">Project</span></h2>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-10">
+                <div class="relative group overflow-hidden rounded-lg cursor-pointer">
+                    <img src="img/portfolio1.jpg" class="w-full transition-transform transform group-hover:scale-110">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+                        <h5 class="text-white text-xl mb-2">Visual Design</h5>
+                        <p class="text-gray-300 text-center">Check out updates for the top web design & development
+                            companies.</p>
+                        <a href="#" class="mt-4 text-orange-500"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+                <div class="relative group overflow-hidden rounded-lg cursor-pointer">
+                    <img src="img/portfolio2.png" class="w-full transition-transform transform group-hover:scale-110">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+                        <h5 class="text-white text-xl mb-2">Visual Design</h5>
+                        <p class="text-gray-300 text-center">Check out updates for the top web design & development
+                            companies.</p>
+                        <a href="#" class="mt-4 text-orange-500"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+                <div class="relative group overflow-hidden rounded-lg cursor-pointer">
+                    <img src="img/portfolio3.png" class="w-full transition-transform transform group-hover:scale-110">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+                        <h5 class="text-white text-xl mb-2">Visual Design</h5>
+                        <p class="text-gray-300 text-center">Check out updates for the top web design & development
+                            companies.</p>
+                        <a href="#" class="mt-4 text-orange-500"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact section -->
+        <section class="contact bg-gray-800 py-10 grid grid-cols-1 md:grid-cols-2 gap-6 px-[10%]" id="contact">
+            <div class="contact-text">
+                <h2 class="text-4xl font-bold text-white">Contact <span class="text-orange-600">Me!</span></h2>
+                <h4 class="text-xl font-semibold text-white mt-4 mb-6">If You Have Any Project In Your Mind.</h4>
+                <p class="text-gray-400 mb-8">I'm a Front-End Developer - creating bold & brave interface design for
+                    companies all across the world.</p>
+                <ul class="space-y-3 text-gray-400">
+                    <li><a href="mailto:hmiftachul11@gmail.com" class="hover:underline">hmiftachul11@gmail.com</a></li>
+                </ul>
+                <div class="flex space-x-4 mt-6">
+                    <a href="#" class="bg-orange-500 py-2 px-3 rounded-full text-white hover:bg-orange-600"><i
+                            class='bx bxl-facebook'></i></a>
+                    <a href="#" class="bg-orange-500 py-2 px-3 rounded-full text-white hover:bg-orange-600"><i
+                            class='bx bxl-twitter'></i></a>
+                    <a href="#" class="bg-orange-500 py-2 px-3 rounded-full text-white hover:bg-orange-600"><i
+                            class='bx bxl-instagram-alt'></i></a>
+                </div>
+            </div>
+            <div class="contact-form">
+                <form action="" class="space-y-4">
+                    <input type="text" placeholder="Your Name"
+                        class="w-full p-3 bg-gray-700 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-500">
+                    <input type="email" placeholder="Your Email (required)"
+                        class="w-full p-3 bg-gray-700 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-500">
+                    <input type="tel" placeholder="Your Mobile Number"
+                        class="w-full p-3 bg-gray-700 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-500">
+                    <textarea placeholder="How Can I Help You?"
+                        class="w-full p-3 bg-gray-700 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-500"></textarea>
+                    <button type="submit"
+                        class="w-full py-3 bg-orange-500 text-white rounded-lg hover:bg-orange-600 transition">Send
+                        Message</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Footer section -->
+        <section class="end bg-gray-900 py-4 flex items-center justify-between px-[10%]">
+            <div class="text-gray-400 text-sm">
+                <p>Copyright &copy; 2023 by Miftachul Huda</p>
+            </div>
+            <div class="top">
+                <a href="#home" class="bg-orange-500 p-2 rounded-full text-white hover:bg-orange-600"><i
+                        class='bx bx-up-arrow-alt'></i></a>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
